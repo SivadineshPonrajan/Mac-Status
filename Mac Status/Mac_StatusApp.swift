@@ -80,7 +80,7 @@ struct Mac_StatusApp: App {
     
     var body: some Scene {
         MenuBarExtra {
-            Text("Current Status: \(server.status)")
+//            Text("Current Status: \(server.status)")
             
             Button(server.isRunning ? "Stop" : "Start") {
                 if server.isRunning {
